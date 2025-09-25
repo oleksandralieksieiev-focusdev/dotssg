@@ -23,7 +23,7 @@ namespace Ssg.Services
 <html>
 <head><meta charset=""utf-8""><title>@Model.Title</title></head>
 <body>
-<main>@Html.Raw(Model.ContentHtml)</main>
+<main>@Raw(Model.ContentHtml)</main>
 <footer><small>Generated: @Model.LastModifiedUtc.ToString(""u"")</small></footer>
 </body>
 </html>";
